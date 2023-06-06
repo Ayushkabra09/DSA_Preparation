@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f3a6425-d49d-41d5-8e1c-3fcc1705f994" name="Changes" comment="DSA programs">
-      <change afterPath="$PROJECT_DIR$/src/SumOfDigits.java" afterDir="false" />
+    <list default="true" id="4f3a6425-d49d-41d5-8e1c-3fcc1705f994" name="Changes" comment="Sum of Digits program">
+      <change afterPath="$PROJECT_DIR$/src/ProductofDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,21 @@
       <recent name="D:\java\DSA_Preparation\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOfDigits">
+  <component name="RunManager" selected="Application.ReverseANumber">
+    <configuration name="ProductofDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductofDigits" />
+      <module name="DSA_Preparation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseANumber" />
+      <module name="DSA_Preparation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SumOfDigits" />
       <module name="DSA_Preparation" />
@@ -64,6 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseANumber" />
+        <item itemvalue="Application.ProductofDigits" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.printNto1" />
       </list>
@@ -92,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685930474767</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sum of Digits program">
+      <created>1686011815678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686011815678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA programs" />
+    <MESSAGE value="Sum of Digits program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum of Digits program" />
   </component>
 </project>
