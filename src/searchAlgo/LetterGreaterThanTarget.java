@@ -1,3 +1,4 @@
+package searchAlgo;
 public class LetterGreaterThanTarget {
     public static void  main(String args[]){
         char[] arr = {'c','f', 'j'};

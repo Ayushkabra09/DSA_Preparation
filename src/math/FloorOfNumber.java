@@ -1,17 +1,16 @@
-public class CeilingOfANumber {
+package math;
+public class FloorOfNumber {
     public static void  main(String args[]){
         int[] arr = {1,5,7,8,9};
         int target = 10;
-        int result = CeilingOfANumber(arr, target);
+        int result = FloorOfNumber(arr, target);
         System.out.println(result);
     }
-    static int CeilingOfANumber(int[] arr, int target){
+    static int FloorOfNumber(int[] arr, int target){
 
         int start = 0;
         int end = arr.length -1;
-        if(target > arr[arr.length-1]){
-            return -1;
-        }
+
         while(start <= end){
             int mid = start + (end-start)/2;
 
@@ -26,7 +25,7 @@ public class CeilingOfANumber {
             }
 
             if (start==end){
-                return end+1;
+                return end;
             }
 
         }

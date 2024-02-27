@@ -1,3 +1,4 @@
+package searchAlgo;
 public class BinarySearchRecurssion {
 
     public static void main(String[] args) {

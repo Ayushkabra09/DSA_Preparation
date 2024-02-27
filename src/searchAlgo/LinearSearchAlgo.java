@@ -1,3 +1,4 @@
+package searchAlgo;
 public class LinearSearchAlgo {
     public static void main(String[] args) {
         int[] arr = {12, 43, 23, 54, 65, 22};

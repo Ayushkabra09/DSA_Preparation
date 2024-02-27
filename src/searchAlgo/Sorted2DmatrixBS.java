@@ -1,3 +1,4 @@
+package searchAlgo;
 import java.util.Arrays;
 
 public class Sorted2DmatrixBS {

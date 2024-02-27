@@ -1,15 +1,18 @@
-public class FloorOfNumber {
+package searchAlgo;
+public class CeilingOfANumber {
     public static void  main(String args[]){
         int[] arr = {1,5,7,8,9};
-        int target = 10;
-        int result = FloorOfNumber(arr, target);
+        int target = 9;
+        int result = CeilingOfANumber(arr, target);
         System.out.println(result);
     }
-    static int FloorOfNumber(int[] arr, int target){
+    static int CeilingOfANumber(int[] arr, int target){
 
         int start = 0;
         int end = arr.length -1;
-
+        if(target > arr[arr.length-1]){
+            return -1;
+        }
         while(start <= end){
             int mid = start + (end-start)/2;
 
@@ -24,7 +27,7 @@ public class FloorOfNumber {
             }
 
             if (start==end){
-                return end;
+                return end+1;
             }
 
         }
